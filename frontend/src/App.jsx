@@ -3,10 +3,20 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
+import Contact from "./pages/Contact";
+import Myprofile from "./pages/myprofile";
+import Store from "./pages/Store";
+import Games from "./pages/Games";
+import About from "./pages/About";
+import Internshipsjobs from "./pages/Internshipsjobs";
+import Courses from "./pages/Courses";
+import TermConditions from "./pages/TermConditions";
+import Footer from "./components/Footer";
 // import SearchBar from "./components/SearchBar";
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Roadmaps from "./pages/Roadmaps";
+import { assets } from "./assets/assets";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +32,11 @@ function App() {
       <div className="flex justify-center items-center h-screen">
         <div className="text-center">
           <div className="loader"></div>
-          <p>Loading, please wait...</p>
+          <img
+            src={assets.logo}
+            className="w-40 cursor-pointer"
+            loading="lazy"
+          />
         </div>
       </div>
     );
@@ -33,27 +47,25 @@ function App() {
   return (
     <>
       <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[7vw]">
-        {/* <ToastContainer /> */}
+        <ToastContainer />
         <Navbar />
         {/* <SearchBar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/collection" element={<Collection />} />
-          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/product/:productId" element={<Product />} />
-          <Route path="/cart" element={<Cart />} /> */}
+          <Route path="/my-profile" element={<Myprofile />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="/place-order" element={<PlaceOrder />} />
-          <Route path="/orders" element={<Orders />} />
-          <Route path="/shipping-policy" element={<ShippingPolicy />} />
+          <Route path="/internships/jobs" element={<Internshipsjobs />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/roadmaps" element={<Roadmaps />} />
+          {/* <Route path="/reset-password" element={<ResetPassword />} /> */}
           <Route path="/terms-conditions" element={<TermConditions />} />
-          <Route path="/return-exchange" element={<ReturnExchanges />} />
-          <Route path="/delivery" element={<Delivery />} /> */}
         </Routes>
         {/* <NewsletterBox /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

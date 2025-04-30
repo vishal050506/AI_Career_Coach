@@ -1,0 +1,67 @@
+[
+    {
+      "title": "Introduction to Web Development",
+      "company": "Tech Academy",
+      "location": "Remote",
+      "category": "Web Development",
+      "aboutCompany": "Tech Academy is a leading online education platform specializing in tech-related courses.",
+      "aboutCourse": "This course covers HTML, CSS, and JavaScript fundamentals for beginners.",
+      "Whocanapply": "Anyone with basic computer skills and interest in web development",
+      "perks": ["Certificate of completion", "Flexible schedule", "Access to community forum"],
+      "AdditionalInfo": "Course materials will be provided. No prior coding experience required.",
+      "StartDate": "2023-06-15",
+      "createAt": "2023-05-20T10:00:00Z"
+    },
+    {
+      "title": "Data Science Bootcamp",
+      "company": "Data Masters Inc.",
+      "location": "New York, NY",
+      "category": "Data Science",
+      "aboutCompany": "Data Masters has been training data professionals for over 10 years.",
+      "aboutCourse": "Intensive 12-week program covering Python, SQL, and machine learning.",
+      "Whocanapply": "STEM graduates or professionals with basic programming knowledge",
+      "perks": ["Career counseling", "Job placement assistance", "Alumni network access"],
+      "AdditionalInfo": "Laptops will be provided for in-person sessions. Evening classes available.",
+      "StartDate": "2023-07-10",
+      "createAt": "2023-04-15T09:30:00Z"
+    },
+    {
+      "title": "Digital Marketing Fundamentals",
+      "company": "Marketing Pro",
+      "location": "Online",
+      "category": "Marketing",
+      "aboutCompany": "Marketing Pro offers cutting-edge digital marketing training since 2015.",
+      "aboutCourse": "Learn SEO, social media marketing, and content strategy in 8 weeks.",
+      "Whocanapply": "Marketing professionals or business owners looking to expand digital presence",
+      "perks": ["Real-world projects", "Industry expert mentors", "Portfolio building"],
+      "AdditionalInfo": "Weekly live Q&A sessions included. Self-paced learning available.",
+      "StartDate": "2023-06-01",
+      "createAt": "2023-03-10T14:15:00Z"
+    },
+    {
+      "title": "UX/UI Design Masterclass",
+      "company": "Design Hub",
+      "location": "San Francisco, CA",
+      "category": "Design",
+      "aboutCompany": "Design Hub is an award-winning design school with industry connections.",
+      "aboutCourse": "Comprehensive training in user research, wireframing, and prototyping.",
+      "Whocanapply": "Designers or developers looking to specialize in UX/UI",
+      "perks": ["Design toolkit", "1-on-1 feedback", "Showcase in final exhibition"],
+      "AdditionalInfo": "Scholarships available for eligible candidates. Hybrid option (online/in-person).",
+      "StartDate": "2023-08-05",
+      "createAt": "2023-06-01T11:20:00Z"
+    },
+    {
+      "title": "Cybersecurity Essentials",
+      "company": "SecureNet Academy",
+      "location": "Remote",
+      "category": "Cybersecurity",
+      "aboutCompany": "SecureNet trains the next generation of cybersecurity professionals.",
+      "aboutCourse": "Foundational knowledge in network security, encryption, and ethical hacking.",
+      "Whocanapply": "IT professionals or career changers interested in security",
+      "perks": ["Hands-on labs", "Exam voucher included", "Industry-recognized certification"],
+      "AdditionalInfo": "Part-time and full-time tracks available. Prerequisites: basic networking knowledge.",
+      "StartDate": "2023-09-12",
+      "createAt": "2023-07-15T16:45:00Z"
+    }
+  ]
