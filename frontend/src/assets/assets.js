@@ -10,8 +10,8 @@ import logo from "./logo.gif";
 import title from "./Title.png";
 import herobg from "./bg.gif";
 import vishal from "./vishal.png";
-import gaurav from './gaurav.jpeg'
-import aakash from './aakash.jpeg'
+import gaurav from './gaurav.jpeg';
+import aakash from './aakash.jpeg';
 import daksh from './daksh.jpeg'
 import ai from './ai.gif'
 import ml from './ml.pdf'

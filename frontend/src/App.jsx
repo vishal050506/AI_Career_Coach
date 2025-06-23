@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
 import Contact from "./pages/Contact";
-import Myprofile from "./pages/myprofile";
+import Myprofile from "./pages/Myprofile";
 import Store from "./pages/Store";
 import Games from "./pages/Games";
 import About from "./pages/About";
