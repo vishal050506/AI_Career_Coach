@@ -20,6 +20,5 @@ Backend: Node.js, Express.js
 AI Integration: OpenAI API (for personalized recommendations and chat)
 Database: MongoDB
 
-🚀 Live Demo
-🔗 Live Website - http://aicarrercoach.vercel.app
+🚀 Live Demo -  http://aicarrercoach.vercel.app
 
